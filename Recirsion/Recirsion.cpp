@@ -7,7 +7,6 @@ void foo(int num, int numS)
     int res;
     res = num % numS;
     num /= numS;
-    /*res = num % numS;*/
     if (num>=numS)
     {
         foo(num, numS);
