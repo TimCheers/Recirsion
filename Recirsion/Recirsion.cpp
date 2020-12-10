@@ -30,7 +30,14 @@ int main()
     cin >> num;
     cout << "Введите количество знаков новой системы счисления"<<endl;
     cin >> numS;
-    foo(num, numS);
+    if (numS == 10)
+    {
+        cout << num;
+    }
+    else
+    {
+        foo(num, numS);
+    }
     
     
 }
